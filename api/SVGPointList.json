@@ -3,9 +3,10 @@
     "SVGPointList": {
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList",
+        "spec_url": "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPointList",
         "support": {
           "chrome": {
-            "version_added": "5"
+            "version_added": "1"
           },
           "chrome_android": {
             "version_added": "18"
@@ -29,16 +30,16 @@
             "version_added": "≤12.1"
           },
           "safari": {
-            "version_added": "5"
+            "version_added": "3"
           },
           "safari_ios": {
-            "version_added": "4"
+            "version_added": "1"
           },
           "samsunginternet_android": {
             "version_added": "1.0"
           },
           "webview_android": {
-            "version_added": "≤37"
+            "version_added": "3"
           }
         },
         "status": {
@@ -50,9 +51,10 @@
       "appendItem": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/appendItem",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -76,16 +78,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {
@@ -98,9 +100,10 @@
       "clear": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/clear",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -124,16 +127,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {
@@ -146,9 +149,10 @@
       "getItem": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/getItem",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -172,16 +176,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {
@@ -194,9 +198,10 @@
       "initialize": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/initialize",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -220,16 +225,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {
@@ -242,9 +247,10 @@
       "insertItemBefore": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/insertItemBefore",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -268,16 +274,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {
@@ -290,12 +296,13 @@
       "length": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/length",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "35"
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": "35"
             },
             "edge": {
               "version_added": "79"
@@ -316,16 +323,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "13"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "13"
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "3.0"
             },
             "webview_android": {
-              "version_added": true
+              "version_added": "37"
             }
           },
           "status": {
@@ -338,12 +345,13 @@
       "numberOfItems": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/numberOfItems",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "1"
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": "18"
             },
             "edge": {
               "version_added": "12"
@@ -364,16 +372,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": true
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "1"
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": true
+              "version_added": "3"
             }
           },
           "status": {
@@ -386,9 +394,10 @@
       "removeItem": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/removeItem",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -412,16 +421,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {
@@ -434,9 +443,10 @@
       "replaceItem": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGPointList/replaceItem",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
           "support": {
             "chrome": {
-              "version_added": "5"
+              "version_added": "1"
             },
             "chrome_android": {
               "version_added": "18"
@@ -460,16 +470,16 @@
               "version_added": "≤12.1"
             },
             "safari": {
-              "version_added": "5"
+              "version_added": "3"
             },
             "safari_ios": {
-              "version_added": "4"
+              "version_added": "1"
             },
             "samsunginternet_android": {
               "version_added": "1.0"
             },
             "webview_android": {
-              "version_added": "≤37"
+              "version_added": "3"
             }
           },
           "status": {

@@ -150,6 +150,56 @@
           }
         }
       },
+      "handled": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/ServiceWorker/#dom-fetchevent-handled",
+          "support": {
+            "chrome": {
+              "version_added": "86"
+            },
+            "chrome_android": {
+              "version_added": "86"
+            },
+            "edge": {
+              "version_added": "86"
+            },
+            "firefox": {
+              "version_added": "84"
+            },
+            "firefox_android": {
+              "version_added": "84"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "72"
+            },
+            "opera_android": {
+              "version_added": "61"
+            },
+            "safari": {
+              "version_added": false,
+              "notes": "See <a href='https://webkit.org/b/208185'>bug 208185</a>."
+            },
+            "safari_ios": {
+              "version_added": false,
+              "notes": "See <a href='https://webkit.org/b/208185'>bug 208185</a>."
+            },
+            "samsunginternet_android": {
+              "version_added": "14.0"
+            },
+            "webview_android": {
+              "version_added": "86"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "isReload": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FetchEvent/isReload",
@@ -230,10 +280,10 @@
               "version_added": "43"
             },
             "safari": {
-              "version_added": false
+              "version_added": "15.4"
             },
             "safari_ios": {
-              "version_added": false
+              "version_added": "15.4"
             },
             "samsunginternet_android": {
               "version_added": "7.0"
@@ -308,10 +358,10 @@
           "spec_url": "https://w3c.github.io/ServiceWorker/#fetch-event-request",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "40"
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": "40"
             },
             "edge": {
               "version_added": "17"
@@ -320,16 +370,16 @@
               "version_added": "44"
             },
             "firefox_android": {
-              "version_added": null
+              "version_added": "44"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "27"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "27"
             },
             "safari": {
               "version_added": "11.1"
@@ -338,10 +388,10 @@
               "version_added": "11.3"
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "4.0"
             },
             "webview_android": {
-              "version_added": true
+              "version_added": "40"
             }
           },
           "status": {
@@ -378,9 +428,15 @@
                 "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
               }
             ],
-            "firefox_android": {
-              "version_added": null
-            },
+            "firefox_android": [
+              {
+                "version_added": "59",
+                "notes": "NetworkError thrown if request mode is same-origin and response type is cors (see <a href='https://bugzil.la/1222008'>bug 1222008</a>)."
+              },
+              {
+                "version_added": "44"
+              }
+            ],
             "ie": {
               "version_added": false
             },
@@ -427,16 +483,16 @@
                 "version_added": "59"
               },
               "firefox_android": {
-                "version_added": null
+                "version_added": "59"
               },
               "ie": {
                 "version_added": false
               },
               "opera": {
-                "version_added": null
+                "version_added": false
               },
               "opera_android": {
-                "version_added": null
+                "version_added": false
               },
               "safari": {
                 "version_added": false
@@ -489,10 +545,12 @@
               "version_added": "50"
             },
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "notes": "See <a href='https://webkit.org/b/190313'>bug 190313</a>."
             },
             "safari_ios": {
-              "version_added": false
+              "version_added": false,
+              "notes": "See <a href='https://webkit.org/b/190313'>bug 190313</a>."
             },
             "samsunginternet_android": {
               "version_added": "11.0"

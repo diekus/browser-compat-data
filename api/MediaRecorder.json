@@ -16,11 +16,11 @@
           },
           "firefox": {
             "version_added": "25",
-            "notes": "Prior to Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
+            "notes": "Before Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
           },
           "firefox_android": {
             "version_added": "25",
-            "notes": "Prior to Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
+            "notes": "Before Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
           },
           "ie": {
             "version_added": false
@@ -99,9 +99,9 @@
             "deprecated": false
           }
         },
-        "options": {
+        "options_parameter": {
           "__compat": {
-            "description": "<code>options</code> object",
+            "description": "<code>options</code> parameter",
             "support": {
               "chrome": {
                 "version_added": "49"
@@ -116,7 +116,7 @@
                 "version_added": "43"
               },
               "firefox_android": {
-                "version_added": null
+                "version_added": "43"
               },
               "ie": {
                 "version_added": false
@@ -145,6 +145,54 @@
               "standard_track": true,
               "deprecated": false
             }
+          }
+        }
+      },
+      "audioBitrateMode": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-audiobitratemode",
+          "support": {
+            "chrome": {
+              "version_added": "89"
+            },
+            "chrome_android": {
+              "version_added": "89"
+            },
+            "edge": {
+              "version_added": "89"
+            },
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "75"
+            },
+            "opera_android": {
+              "version_added": "63"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": "15.0"
+            },
+            "webview_android": {
+              "version_added": "89"
+            }
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
           }
         }
       },
@@ -191,7 +239,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -204,13 +252,19 @@
           "spec_url": "https://w3c.github.io/mediacapture-record/#errorevent-section",
           "support": {
             "chrome": {
-              "version_added": "49"
+              "version_added": "49",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "chrome_android": {
-              "version_added": "49"
+              "version_added": "49",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "edge": {
-              "version_added": "79"
+              "version_added": "79",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "firefox": {
               "version_added": "25"
@@ -222,10 +276,14 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "36"
+              "version_added": "36",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "opera_android": {
-              "version_added": "36"
+              "version_added": "36",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "safari": {
               "version_added": "14"
@@ -234,10 +292,14 @@
               "version_added": "14"
             },
             "samsunginternet_android": {
-              "version_added": "5.0"
+              "version_added": "5.0",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "webview_android": {
-              "version_added": "49"
+              "version_added": "49",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             }
           },
           "status": {
@@ -363,7 +425,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ],
             "chrome_android": [
@@ -374,7 +436,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ],
             "edge": {
@@ -413,7 +475,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ]
           },
@@ -479,13 +541,19 @@
           "spec_url": "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-onerror",
           "support": {
             "chrome": {
-              "version_added": "49"
+              "version_added": "49",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "chrome_android": {
-              "version_added": "49"
+              "version_added": "49",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "edge": {
-              "version_added": "79"
+              "version_added": "79",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "firefox": {
               "version_added": "25"
@@ -497,10 +565,14 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "36"
+              "version_added": "36",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "opera_android": {
-              "version_added": "36"
+              "version_added": "36",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "safari": {
               "version_added": "14"
@@ -509,10 +581,14 @@
               "version_added": "14"
             },
             "samsunginternet_android": {
-              "version_added": "5.0"
+              "version_added": "5.0",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             },
             "webview_android": {
-              "version_added": "49"
+              "version_added": "49",
+              "partial_implementation": true,
+              "notes": "The interface for this event is a plain <a href='https://developer.mozilla.org/docs/Web/API/Event'><code>Event</code></a>, not <a href='https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent'><code>MediaRecorderErrorEvent</code></a>. See <a href='https://crbug.com/1250432'>bug 1250432</a>."
             }
           },
           "status": {
@@ -976,7 +1052,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ],
             "chrome_android": [
@@ -987,7 +1063,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ],
             "edge": {
@@ -1025,7 +1101,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ]
           },
@@ -1098,7 +1174,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ],
             "chrome_android": [
@@ -1109,7 +1185,7 @@
                 "version_added": "47",
                 "version_removed": "49",
                 "partial_implementation": true,
-                "notes": "Prior to Chrome 49, only video is supported, not audio."
+                "notes": "Before Chrome 49, only video is supported, not audio."
               }
             ],
             "edge": {
@@ -1193,7 +1269,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

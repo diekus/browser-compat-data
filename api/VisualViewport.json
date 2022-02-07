@@ -14,16 +14,21 @@
           "edge": {
             "version_added": "79"
           },
-          "firefox": {
-            "version_added": "63",
-            "flags": [
-              {
-                "type": "preference",
-                "name": "dom.visualviewport.enabled",
-                "value_to_set": "true"
-              }
-            ]
-          },
+          "firefox": [
+            {
+              "version_added": "91"
+            },
+            {
+              "version_added": "63",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.visualviewport.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            }
+          ],
           "firefox_android": [
             {
               "version_added": "68"
@@ -62,7 +67,7 @@
           }
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
@@ -81,16 +86,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -129,7 +139,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -149,16 +159,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -197,7 +212,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -217,16 +232,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -265,215 +285,7 @@
             }
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onresize": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VisualViewport/onresize",
-          "spec_url": "https://wicg.github.io/visual-viewport/#dom-visualviewport-onresize",
-          "support": {
-            "chrome": [
-              {
-                "version_added": "62"
-              },
-              {
-                "version_added": "61",
-                "partial_implementation": true
-              }
-            ],
-            "chrome_android": [
-              {
-                "version_added": "62"
-              },
-              {
-                "version_added": "61",
-                "partial_implementation": true
-              }
-            ],
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": {
-              "version_added": "66",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "firefox_android": [
-              {
-                "version_added": "68"
-              },
-              {
-                "version_added": "66",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.visualviewport.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": [
-              {
-                "version_added": "49"
-              },
-              {
-                "version_added": "48",
-                "partial_implementation": true
-              }
-            ],
-            "opera_android": [
-              {
-                "version_added": "46"
-              },
-              {
-                "version_added": "45",
-                "partial_implementation": true
-              }
-            ],
-            "safari": {
-              "version_added": "13"
-            },
-            "safari_ios": {
-              "version_added": "13"
-            },
-            "samsunginternet_android": [
-              {
-                "version_added": "8.0"
-              },
-              {
-                "partial_implementation": true,
-                "version_added": "8.0"
-              }
-            ],
-            "webview_android": [
-              {
-                "version_added": "62"
-              },
-              {
-                "version_added": "61",
-                "partial_implementation": true
-              }
-            ]
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "onscroll": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VisualViewport/onscroll",
-          "spec_url": "https://wicg.github.io/visual-viewport/#dom-visualviewport-onscroll",
-          "support": {
-            "chrome": [
-              {
-                "version_added": "62"
-              },
-              {
-                "version_added": "61",
-                "partial_implementation": true
-              }
-            ],
-            "chrome_android": [
-              {
-                "version_added": "62"
-              },
-              {
-                "version_added": "61",
-                "partial_implementation": true
-              }
-            ],
-            "edge": {
-              "version_added": "79"
-            },
-            "firefox": {
-              "version_added": "66",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
-            "firefox_android": [
-              {
-                "version_added": "68"
-              },
-              {
-                "version_added": "66",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "dom.visualviewport.enabled",
-                    "value_to_set": "true"
-                  }
-                ]
-              }
-            ],
-            "ie": {
-              "version_added": false
-            },
-            "opera": [
-              {
-                "version_added": "49"
-              },
-              {
-                "version_added": "48",
-                "partial_implementation": true
-              }
-            ],
-            "opera_android": [
-              {
-                "version_added": "46"
-              },
-              {
-                "version_added": "45",
-                "partial_implementation": true
-              }
-            ],
-            "safari": {
-              "version_added": "13"
-            },
-            "safari_ios": {
-              "version_added": "13"
-            },
-            "samsunginternet_android": [
-              {
-                "version_added": "8.0"
-              },
-              {
-                "partial_implementation": true,
-                "version_added": "8.0"
-              }
-            ],
-            "webview_android": [
-              {
-                "version_added": "62"
-              },
-              {
-                "version_added": "61",
-                "partial_implementation": true
-              }
-            ]
-          },
-          "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -493,16 +305,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -541,7 +358,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -561,16 +378,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -609,7 +431,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -619,7 +441,10 @@
         "__compat": {
           "description": "<code>resize</code> event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VisualViewport/resize_event",
-          "spec_url": "https://wicg.github.io/visual-viewport/#events",
+          "spec_url": [
+            "https://wicg.github.io/visual-viewport/#events",
+            "https://wicg.github.io/visual-viewport/#dom-visualviewport-onresize"
+          ],
           "support": {
             "chrome": [
               {
@@ -627,7 +452,8 @@
               },
               {
                 "version_added": "61",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onresize</code> property is not supported."
               }
             ],
             "chrome_android": [
@@ -636,22 +462,28 @@
               },
               {
                 "version_added": "61",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onresize</code> property is not supported."
               }
             ],
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "66",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "66",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -676,7 +508,8 @@
               },
               {
                 "version_added": "48",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onresize</code> property is not supported."
               }
             ],
             "opera_android": [
@@ -685,7 +518,8 @@
               },
               {
                 "version_added": "45",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onresize</code> property is not supported."
               }
             ],
             "safari": {
@@ -694,27 +528,22 @@
             "safari_ios": {
               "version_added": "13"
             },
-            "samsunginternet_android": [
-              {
-                "version_added": "8.0"
-              },
-              {
-                "partial_implementation": true,
-                "version_added": "8.0"
-              }
-            ],
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
             "webview_android": [
               {
                 "version_added": "62"
               },
               {
                 "version_added": "61",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onresize</code> property is not supported."
               }
             ]
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -734,16 +563,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -782,7 +616,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -792,7 +626,10 @@
         "__compat": {
           "description": "<code>scroll</code> event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VisualViewport/scroll_event",
-          "spec_url": "https://wicg.github.io/visual-viewport/#events",
+          "spec_url": [
+            "https://wicg.github.io/visual-viewport/#events",
+            "https://wicg.github.io/visual-viewport/#dom-visualviewport-onscroll"
+          ],
           "support": {
             "chrome": [
               {
@@ -800,7 +637,8 @@
               },
               {
                 "version_added": "61",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onscroll</code> property is not supported."
               }
             ],
             "chrome_android": [
@@ -809,22 +647,28 @@
               },
               {
                 "version_added": "61",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onscroll</code> property is not supported."
               }
             ],
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "66",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "66",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -849,7 +693,8 @@
               },
               {
                 "version_added": "48",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onscroll</code> property is not supported."
               }
             ],
             "opera_android": [
@@ -858,7 +703,8 @@
               },
               {
                 "version_added": "45",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onscroll</code> property is not supported."
               }
             ],
             "safari": {
@@ -867,27 +713,22 @@
             "safari_ios": {
               "version_added": "13"
             },
-            "samsunginternet_android": [
-              {
-                "version_added": "8.0"
-              },
-              {
-                "partial_implementation": true,
-                "version_added": "8.0"
-              }
-            ],
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
             "webview_android": [
               {
                 "version_added": "62"
               },
               {
                 "version_added": "61",
-                "partial_implementation": true
+                "partial_implementation": true,
+                "notes": "The <code>onscroll</code> property is not supported."
               }
             ]
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -907,16 +748,21 @@
             "edge": {
               "version_added": "79"
             },
-            "firefox": {
-              "version_added": "63",
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "dom.visualviewport.enabled",
-                  "value_to_set": "true"
-                }
-              ]
-            },
+            "firefox": [
+              {
+                "version_added": "91"
+              },
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "dom.visualviewport.enabled",
+                    "value_to_set": "true"
+                  }
+                ]
+              }
+            ],
             "firefox_android": [
               {
                 "version_added": "68"
@@ -955,7 +801,7 @@
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

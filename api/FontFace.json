@@ -214,7 +214,7 @@
               "version_added": "58"
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": "58"
             },
             "ie": {
               "version_added": false
@@ -260,19 +260,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -309,19 +309,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -423,20 +423,36 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "opera": [
+              {
+                "version_added": "32"
+              },
+              {
+                "version_added": "22",
+                "version_removed": "32",
+                "partial_implementation": true,
+                "notes": "Before Opera 45, the returned promise resolved with void instead of a <code>FontFace</code> object as required by the specification."
+              }
+            ],
+            "opera_android": [
+              {
+                "version_added": "32"
+              },
+              {
+                "version_added": "22",
+                "version_removed": "32",
+                "partial_implementation": true,
+                "notes": "Before Opera 45, the returned promise resolved with void instead of a <code>FontFace</code> object as required by the specification."
+              }
+            ],
             "safari": {
               "version_added": "10"
             },
@@ -504,20 +520,36 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
+            "opera": [
+              {
+                "version_added": "32"
+              },
+              {
+                "version_added": "22",
+                "version_removed": "32",
+                "partial_implementation": true,
+                "notes": "Before Opera 45, the returned promise resolved with void instead of a <code>FontFace</code> object as required by the specification."
+              }
+            ],
+            "opera_android": [
+              {
+                "version_added": "32"
+              },
+              {
+                "version_added": "22",
+                "version_removed": "32",
+                "partial_implementation": true,
+                "notes": "Before Opera 45, the returned promise resolved with void instead of a <code>FontFace</code> object as required by the specification."
+              }
+            ],
             "safari": {
               "version_added": "10"
             },
@@ -569,19 +601,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -618,19 +650,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -667,19 +699,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -716,19 +748,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -765,19 +797,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": false
@@ -863,19 +895,19 @@
               "version_added": "79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "41"
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": "41"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": "22"
             },
             "opera_android": {
-              "version_added": true
+              "version_added": "22"
             },
             "safari": {
               "version_added": "10"
@@ -920,10 +952,10 @@
               "version_added": false
             },
             "opera": {
-              "version_added": null
+              "version_added": "56"
             },
             "opera_android": {
-              "version_added": null
+              "version_added": "48"
             },
             "safari": {
               "version_added": false
