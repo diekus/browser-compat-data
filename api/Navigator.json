@@ -3473,8 +3473,8 @@
             },
             "edge": {
               "version_added": "81",
-              "partial_implementation": true,
-              "notes": "Not supported on macOS, see <a href='https://crbug.com/1144920'>bug 1144920</a>."
+              "partial_implementation": false,
+              "notes": "macOS support from version 93."
             },
             "firefox": {
               "version_added": "71",
